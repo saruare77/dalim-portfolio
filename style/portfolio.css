@@ -214,6 +214,10 @@ footer{
 /* Responsive styles */
 
 @media screen and(max-width:576px){
+    .skills-container, .resume-content, .about-info-container{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
 
 }
 @media screen and (min-width:577px) and (max-width:992px) {
